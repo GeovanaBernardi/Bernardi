@@ -1,7 +1,15 @@
-body{
+cabeçalho {
     background-color: rgb(65, 151, 151);
     color:black
+     display: flex;
+     justify-content: space-around
+     aligin-items: padding: 24px 0;
 }
 .cabeçalho-imagem{
     width: 40%
+}
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16PX
+    font-size: 24 px
 }
